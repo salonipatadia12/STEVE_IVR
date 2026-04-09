@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
+const isGHPages = process.env.GITHUB_PAGES === 'true';
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: isGHPages ? 'export' : undefined,
+  basePath: isGHPages ? '/STEVE_IVR' : '',
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

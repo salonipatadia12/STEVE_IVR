@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:static": "node scripts/build-data.mjs && mv src/app/api src/app/_api_bak && GITHUB_PAGES=true NEXT_PUBLIC_BASE_PATH=/STEVE_IVR next build; mv src/app/_api_bak src/app/api",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "next": "16.2.3",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
