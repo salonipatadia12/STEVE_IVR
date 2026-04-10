@@ -25,7 +25,7 @@
       "digit": 1,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": true
+      "Processed": "TRUE"
     },
     {
       "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
@@ -36,7 +36,7 @@
       "digit": 2,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e11-a2dc-799f-9835-65009599d6e0",
@@ -47,7 +47,7 @@
       "digit": 3,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
@@ -58,7 +58,7 @@
       "digit": 4,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e14-7a72-7000-86c5-44860f34fc1f",
@@ -69,7 +69,7 @@
       "digit": 5,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e15-ea5f-7ffe-ab82-db37e426eb23",
@@ -80,7 +80,7 @@
       "digit": 6,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
@@ -91,7 +91,7 @@
       "digit": 7,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
@@ -102,7 +102,7 @@
       "digit": 8,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     },
     {
       "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
@@ -113,7 +113,7 @@
       "digit": 9,
       "mode": "digit_test",
       "university": "San Jose City College",
-      "Processed": "FALSE"
+      "Processed": true
     }
   ],
   "Overview": [
@@ -128,54 +128,210 @@
       "ivr_depth": 2,
       "closed_hours_loop": false,
       "notes": "Press * to repeat main menu, # to return to previous menu, website www.sjcc.edu mentioned for hours and campus numbers."
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "Not specified",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Provides four‑digit extension entry and website reference"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "Not specified",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Main menu offers press 1-7, star to repeat, 3708 for information desk. Student services submenu repeats three times before call ends."
+    },
+    {
+      "callId": "019d6e11-a2dc-799f-9835-65009599d6e0",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "refer to website",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Transcript ends abruptly; no explicit operator or voicemail mentioned."
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "not specified",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Website mentioned: www.sjcc.edu for campus numbers and hours of operation."
+    },
+    {
+      "callId": "019d6e14-7a72-7000-86c5-44860f34fc1f",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "not provided",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Information desk reachable by dialing 3708."
+    },
+    {
+      "callId": "019d6e15-ea5f-7ffe-ab82-db37e426eb23",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "open",
+      "business_hours": "refer to website",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Website mentioned: www.sjcc.edu. Options include extensions and student services."
+    },
+    {
+      "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "active",
+      "business_hours": "",
+      "live_operator_available": true,
+      "voicemail_available": false,
+      "ivr_depth": 1,
+      "closed_hours_loop": false,
+      "notes": "Prompt repeats multiple times; includes website reference and information desk transfer."
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "See website",
+      "live_operator_available": false,
+      "voicemail_available": false,
+      "ivr_depth": 2,
+      "closed_hours_loop": false,
+      "notes": "Transcript ends abruptly"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "Status": "operational",
+      "business_hours": "Monday-Thursday 8:30am-5:30pm; Friday 9:00am-1:00pm",
+      "live_operator_available": true,
+      "voicemail_available": false,
+      "ivr_depth": 3,
+      "closed_hours_loop": false,
+      "notes": "Provides extension entry, website URL, and requires student ID or SSN for expedited service."
     }
   ],
   "Menu Mapping": [
     {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 1,
+      "digit": "XXXX",
       "menu_level": 1,
-      "option_label": "Dial by name",
-      "type": "submenu",
-      "leads_to": "Name directory",
+      "option_label": "Enter party's four digit extension",
+      "type": "extension",
+      "leads_to": "transfer to extension",
       "human": false,
-      "notes": ""
+      "notes": "Direct extension dialing"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "stay",
+      "menu_level": 3,
+      "option_label": "Speak with an admissions and records agent",
+      "type": "escalation",
+      "leads_to": "human agent",
+      "human": true,
+      "notes": "No digit required; remain on line"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "#",
+      "menu_level": 2,
+      "option_label": "Previous menu",
+      "type": "action",
+      "leads_to": "main_menu",
+      "human": false,
+      "notes": "Returns to level 1 menu"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "*",
+      "menu_level": 1,
+      "option_label": "Repeat options",
+      "type": "action",
+      "leads_to": "Repeat main menu",
+      "human": false,
+      "notes": "Repeats the current menu options"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "*",
+      "menu_level": 2,
+      "option_label": "Repeat options",
+      "type": "action",
+      "leads_to": "repeat",
+      "human": false,
+      "notes": "Repeats the student services submenu"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 3708,
+      "menu_level": 1,
+      "option_label": "Information desk transfer",
+      "type": "transfer",
+      "leads_to": "Information Desk",
+      "human": true,
+      "notes": "Direct transfer to a human operator"
     },
     {
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 2,
-      "menu_level": 1,
-      "option_label": "Student services (admissions, counseling, financial aid)",
-      "type": "submenu",
-      "leads_to": "Student Services Menu",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 5,
-      "menu_level": 1,
-      "option_label": "Library",
+      "digit": 9,
+      "menu_level": 2,
+      "option_label": "Vice president of student affairs",
       "type": "information",
-      "leads_to": "Library information",
+      "leads_to": "Vice president of student affairs information",
       "human": false,
       "notes": ""
     },
     {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 6,
-      "menu_level": 1,
-      "option_label": "Academic divisions",
-      "type": "information",
-      "leads_to": "Academic divisions information",
+      "digit": 8,
+      "menu_level": 2,
+      "option_label": "Health services",
+      "type": "navigation",
+      "leads_to": "Health services information",
       "human": false,
       "notes": ""
     },
@@ -195,83 +351,23 @@
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": "*",
+      "digit": 7,
+      "menu_level": 2,
+      "option_label": "Outreach services",
+      "type": "information",
+      "leads_to": "Outreach services information",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 6,
       "menu_level": 1,
-      "option_label": "Repeat main menu",
-      "type": "system",
-      "leads_to": "Repeat main menu",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 3708,
-      "menu_level": 1,
-      "option_label": "Information desk",
-      "type": "transfer",
-      "leads_to": "Information desk",
-      "human": true,
-      "notes": "Enter 3708 to be transferred"
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 1,
-      "menu_level": 2,
-      "option_label": "Admissions and records",
+      "option_label": "Academic divisions",
       "type": "information",
-      "leads_to": "Admissions and records information",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 2,
-      "menu_level": 2,
-      "option_label": "Counseling",
-      "type": "information",
-      "leads_to": "Counseling information",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 3,
-      "menu_level": 2,
-      "option_label": "Financial aid",
-      "type": "information",
-      "leads_to": "Financial aid information",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 4,
-      "menu_level": 2,
-      "option_label": "Student accessibility services",
-      "type": "information",
-      "leads_to": "Student accessibility services information",
-      "human": false,
-      "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 5,
-      "menu_level": 2,
-      "option_label": "EOPNS",
-      "type": "information",
-      "leads_to": "EOPNS information",
+      "leads_to": "Academic divisions information",
       "human": false,
       "notes": ""
     },
@@ -291,23 +387,35 @@
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 7,
-      "menu_level": 2,
-      "option_label": "Outreach services",
+      "digit": 5,
+      "menu_level": 1,
+      "option_label": "Library",
       "type": "information",
-      "leads_to": "Outreach services information",
+      "leads_to": "Library information",
       "human": false,
       "notes": ""
     },
     {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 8,
+      "digit": 5,
       "menu_level": 2,
-      "option_label": "Health services",
+      "option_label": "EOP and S",
+      "type": "navigation",
+      "leads_to": "EOP and S info",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 5,
+      "menu_level": 3,
+      "option_label": "General information and assistance",
       "type": "information",
-      "leads_to": "Health services information",
+      "leads_to": "general assistance",
       "human": false,
       "notes": ""
     },
@@ -315,11 +423,23 @@
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": 9,
+      "digit": 4,
       "menu_level": 2,
-      "option_label": "Vice president of student affairs",
+      "option_label": "Student accessibility services",
       "type": "information",
-      "leads_to": "Vice president of student affairs information",
+      "leads_to": "Student accessibility services information",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 4,
+      "menu_level": 3,
+      "option_label": "Grades, census, change of records, academic renewals",
+      "type": "information",
+      "leads_to": "grades and records info",
       "human": false,
       "notes": ""
     },
@@ -327,48 +447,88 @@
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "digit": "*",
+      "digit": 3,
       "menu_level": 2,
-      "option_label": "Repeat previous menu",
-      "type": "system",
-      "leads_to": "Repeat student services menu",
+      "option_label": "Financial aid",
+      "type": "information",
+      "leads_to": "Financial aid information",
       "human": false,
       "notes": ""
-    },
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": "#",
-      "menu_level": 2,
-      "option_label": "Go to previous menu",
-      "type": "system",
-      "leads_to": "Main menu",
-      "human": false,
-      "notes": ""
-    }
-  ],
-  "Script Capture": [
-    {
-      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
-      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
-      "university": "San Jose City College",
-      "digit": 1,
-      "key_instructions": "Enter name to be dialed",
-      "url_mentioned": "",
-      "compliance_warning": false,
-      "self_service_level": "high"
     },
     {
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
       "digit": 2,
-      "key_instructions": "Select student services option",
-      "url_mentioned": "",
-      "compliance_warning": false,
-      "self_service_level": "medium"
+      "menu_level": 1,
+      "option_label": "Student services (admissions, counseling, financial aid)",
+      "type": "submenu",
+      "leads_to": "Student Services Menu",
+      "human": false,
+      "notes": ""
     },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 2,
+      "menu_level": 2,
+      "option_label": "Counseling",
+      "type": "information",
+      "leads_to": "Counseling information",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 2,
+      "menu_level": 3,
+      "option_label": "Transcripts, enrollment verification, special programs",
+      "type": "information",
+      "leads_to": "transcripts and verification info",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "menu_level": 1,
+      "option_label": "Dial by name",
+      "type": "submenu",
+      "leads_to": "Name directory",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "menu_level": 2,
+      "option_label": "Admissions and records",
+      "type": "information",
+      "leads_to": "Admissions and Records Department",
+      "human": false,
+      "notes": ""
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "menu_level": 3,
+      "option_label": "Office hours",
+      "type": "information",
+      "leads_to": "office hours details",
+      "human": false,
+      "notes": ""
+    }
+  ],
+  "Script Capture": [
     {
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
@@ -388,6 +548,236 @@
       "url_mentioned": "www.sjcc.edu",
       "compliance_warning": false,
       "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "key_instructions": "Dial by name",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 2,
+      "key_instructions": "Student services such as admissions, counseling, and financial aid",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 5,
+      "key_instructions": "Library",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 6,
+      "key_instructions": "Academic divisions",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 7,
+      "key_instructions": "Administrative services and business services",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "*",
+      "key_instructions": "Repeat these options",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "N/A",
+      "key_instructions": "If you know your party's four digit extension, you may enter it now. Press star to repeat options. Press pound to go back to the previous menu.",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e11-a2dc-799f-9835-65009599d6e0",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "N/A",
+      "key_instructions": "Visit our website at www.sjcc.edu for campus numbers and hours of operation.",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "information"
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 0,
+      "key_instructions": "Enter four digit extension if known",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "*",
+      "key_instructions": "Press star to repeat options",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "#",
+      "key_instructions": "Press pound to go to previous menu",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e14-7a72-7000-86c5-44860f34fc1f",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "N/A",
+      "key_instructions": "Visit our website at www.sjcc.edu for campus numbers and hours of operation.",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e15-ea5f-7ffe-ab82-db37e426eb23",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "",
+      "key_instructions": "Visit website at www.sjcc.edu for campus numbers and hours of operation.",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "N/A",
+      "key_instructions": "Visit our website at www.sjcc.edu for campus numbers and hours of operation.",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "information"
+    },
+    {
+      "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "extension",
+      "key_instructions": "If you know your party's four digit extension, you may enter it now.",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "call routing"
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 3708,
+      "key_instructions": "Enter 3708 now to be transferred",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "key_instructions": "Dial by name",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "",
+      "key_instructions": "Visit our website at www.sjcc.edu for campus numbers and hours of operation",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "XXXX",
+      "key_instructions": "Enter your party's four digit extension",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": "info",
+      "key_instructions": "Visit the website for campus numbers and hours of operation",
+      "url_mentioned": "www.sjcc.edu",
+      "compliance_warning": false,
+      "self_service_level": "high"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 1,
+      "key_instructions": "Press 1 for office hours",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 2,
+      "key_instructions": "Press 2 for transcripts, enrollment verification, and special programs",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "digit": 4,
+      "key_instructions": "Press 4 for grades, census, change of records, and academic renewals",
+      "url_mentioned": "",
+      "compliance_warning": false,
+      "self_service_level": "medium"
     }
   ],
   "System Characteristics": [
@@ -402,6 +792,114 @@
       "loop_behavior": "Press * to repeat menu, # to go back to previous menu",
       "escalation_path": "Transfer to information desk via 3708",
       "system_type": "automated IVR"
+    },
+    {
+      "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat menu on *",
+      "escalation_path": "none",
+      "system_type": "menu-driven IVR"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": true,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "Press star to repeat, pound to return to previous menu",
+      "escalation_path": "Press 3708 to be transferred to the information desk (human operator)",
+      "system_type": "IVR"
+    },
+    {
+      "callId": "019d6e11-a2dc-799f-9835-65009599d6e0",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "star repeats current menu, pound returns to previous menu",
+      "escalation_path": "no live operator escalation",
+      "system_type": "IVR menu"
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat options on star",
+      "escalation_path": "information desk via 3708",
+      "system_type": "IVR"
+    },
+    {
+      "callId": "019d6e14-7a72-7000-86c5-44860f34fc1f",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat_on_star",
+      "escalation_path": "information_desk_3708",
+      "system_type": "IVR"
+    },
+    {
+      "callId": "019d6e15-ea5f-7ffe-ab82-db37e426eb23",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat options on star, previous menu on pound",
+      "escalation_path": "information desk via 3708",
+      "system_type": "IVR menu"
+    },
+    {
+      "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": true,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat on star key",
+      "escalation_path": "information desk via 3708",
+      "system_type": "telephony IVR"
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": false,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "repeat with *",
+      "escalation_path": "Transfer to information desk via 3708",
+      "system_type": "IVR menu"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "asks_questions": false,
+      "collects_id": true,
+      "collects_dtmf": true,
+      "has_operator_zero": false,
+      "loop_behavior": "Star repeats current menu; pound returns to previous menu",
+      "escalation_path": "Stay on the line to reach a live agent",
+      "system_type": "Hierarchical IVR with human fallback"
     }
   ],
   "Tone": [
@@ -409,12 +907,116 @@
       "callId": "019d6e0e-cb1e-7ddd-863a-4fa1adce1f5a",
       "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
       "university": "San Jose City College",
-      "tone": "Professional and informational",
+      "tone": "professional and direct",
+      "conversational": true,
+      "script_density": "moderate",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e10-3844-700e-b2df-19ebbe90c8fd",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "neutral",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e11-a2dc-799f-9835-65009599d6e0",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "formal",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e13-0dd7-7ee7-ba9a-d31ca4b3abf4",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "neutral-friendly",
+      "conversational": true,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e14-7a72-7000-86c5-44860f34fc1f",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "neutral",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e15-ea5f-7ffe-ab82-db37e426eb23",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "formal",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e17-5505-799f-98aa-eddafa4a4536",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "formal",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e18-bf2a-7cc7-b54b-315f41ccd6c1",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "neutral",
+      "conversational": false,
+      "script_density": "high",
+      "empathy_level": "low",
+      "automation_level": "high"
+    },
+    {
+      "callId": "019d6e1a-2ce7-7000-99ee-4ee5002e75f8",
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "tone": "professional",
       "conversational": false,
       "script_density": "high",
       "empathy_level": "low",
       "automation_level": "high"
     }
   ],
-  "Friction Score": []
+  "Friction Score": [
+    {
+      "parent_call_id": "019d6d86-545c-7000-8de5-e73d72f961f9",
+      "university": "San Jose City College",
+      "total_score": 37.18,
+      "grade": "Good",
+      "depth_score": 0,
+      "options_score": 60,
+      "time_score": 40.08,
+      "dead_end_score": 0,
+      "agent_access_score": 91.67,
+      "clarity_score": 40,
+      "operator_score": 50,
+      "max_depth": 3,
+      "avg_options": 8,
+      "total_nodes": 24,
+      "dead_end_count": 0,
+      "voicemail_count": 0,
+      "human_reachable_count": 2,
+      "worst_component": "Agent Accessibility",
+      "recommendations": "Simplify menus — average 8.0 options per level exceeds the recommended 5 | Add \"Press 0 for agent\" option to more menu levels | Enable operator (press 0) access from the main menu | Simplify menu prompts — reduce words per option and avoid jargon",
+      "executive_summary": "**Executive Summary – San Jose City College IVR Assessment**  \n\nOverall, your IVR system is performing solidly. The friction score of **37.18 / 100** places the experience in the “good” range, and the architecture is clean: there are **no dead ends** among the 24 nodes and the menu depth never exceeds the recommended three levels. This means callers are never trapped in a loop and can navigate to a destination without excessive nesting.  \n\nHowever, the diagnostic data reveal three key weaknesses. **Agent accessibility** is the most critical, with a score of **91.67 %**—indicating that only two of the possible paths lead to a live operator. Callers seeking human assistance must traverse many automated steps before reaching a person, which can increase frustration. **Options complexity** is also high at **60**, reflecting an average of **8 choices per menu**; callers must sift through a long list before finding the right option. Finally, **time to resolution** (40.08 seconds) and **prompt clarity** (40) suggest that callers spend extra time listening to unclear prompts before completing their task.  \n\nTo raise the overall experience, we recommend the following three actions:  \n\n1. **Add additional human‑touch points.** Introduce at least two more direct‑to‑agent options (e.g., “Press 0 for a live representative” at the first and second menu levels). This should reduce the agent‑accessibility score from **91.7 % to below 30 %**, shortening the path to a person and lowering call‑abandon rates.  \n\n2. **Streamline menu options.** Consolidate related items and remove rarely‑used selections to bring the average number of choices per menu from **8 down to 4‑5**. A lower options‑complexity score (target < 30) will cut navigation time, helping to bring the overall time‑to‑resolution closer to **25 seconds**.  \n\n3. **Clarify prompts and expand self‑service.** Rewrite prompts to be concise (under 10 seconds each) and incorporate a brief confirmation step (“You selected X. Press 1 to confirm, 2 to return”). Improving prompt clarity to a score of **< 20** and operator availability to **< 30** will further reduce the time callers spend listening and increase first‑call‑resolution rates.  \n\nImplementing these recommendations should produce measurable gains: faster resolution, higher satisfaction among students and staff, and a more efficient use of agent time. We stand ready to assist with design, testing, and rollout as you refine the system.",
+      "scored_at": "2026-04-10T02:01:52.394Z"
+    }
+  ]
 }
