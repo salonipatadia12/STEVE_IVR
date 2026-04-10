@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "STEVE IVR Dashboard",
-  description: "Structured Testing & Exploration of Voice Exchange — IVR Intelligence Dashboard",
+  title: "University IVR Intelligence Dashboard",
+  description: "Automated IVR analysis, friction scoring, and recommendations for university phone systems",
 };
 
 export default function RootLayout({

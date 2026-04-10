@@ -37,8 +37,8 @@ export default function Sidebar({
     <aside className="w-64 min-h-screen bg-sidebar-bg text-sidebar-text flex flex-col shrink-0">
       {/* Brand */}
       <div className="px-5 py-6 border-b border-white/10">
-        <h1 className="text-xl font-bold tracking-tight">STEVE</h1>
-        <p className="text-xs text-sidebar-text/60 mt-0.5">IVR Intelligence Dashboard</p>
+        <h1 className="text-xl font-bold tracking-tight">University IVR</h1>
+        <p className="text-xs text-sidebar-text/60 mt-0.5">Intelligence Dashboard</p>
       </div>
 
       {/* Navigation */}
@@ -107,6 +107,7 @@ export default function Sidebar({
         <p className="text-xs text-sidebar-text/40">
           {universities.length} {universities.length === 1 ? 'university' : 'universities'} tracked
         </p>
+        <p className="text-xs text-sidebar-text/30 mt-1">University IVR Intelligence</p>
       </div>
     </aside>
   );
